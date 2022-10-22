@@ -1,0 +1,40 @@
+._header > nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -10px;
+    margin-top: -10px;
+    align-items: center;
+    background-color: rgb(25, 23, 23);
+    height: 4em;
+    width: 98.25%;
+    box-shadow: 0 0 2px gray;
+}
+
+nav > ul > li{
+    padding: 1px 10px;
+    list-style: none; 
+    padding: 0em 7em;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+}
+nav > ul > li > a:hover{
+    transition: 0.8s;
+    color: blue;
+}
+.pos{
+    position: absolute;
+    top: 14px;
+    left: 74rem;
+}
+.nav{
+    display: flex;
+    margin:4px;
+    background-color: rgb(181, 24, 24);
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+}
