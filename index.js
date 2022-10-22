@@ -6,7 +6,7 @@ obj.addEventListener('click', (e)=>{
     if(elem.style.display != 'none'){
         elem.style.display = "none";
     }
-    else{
+    el
         elem.style.display = "block";
     }
 });
